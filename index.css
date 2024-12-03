@@ -1,0 +1,149 @@
+
+header {
+  padding:30;
+  background-color: #4ad9b3;
+  animation-name: example;
+  animation-duration: 6s;
+}
+
+@keyframes example {
+   0%   {background-color: #1a90d9;}
+  20%  {background-color: #12b9cc;}
+  40%  {background-color: #4ad9b3;}
+  60% {background-color: #80ed74;}
+  80% {background-color: #cbffa6;}
+  100% {background-color: #1a90d9;}
+}
+
+h1#def
+{
+  font-family: Garamond, serif;
+  font-size: 55px;
+  padding:50;
+}
+
+h2
+{
+  font-family: "courier new", monospace;
+  text-align: left;
+}
+
+h1#famh1
+{
+  font-family: Garamond, serif;
+  font-size: 55px;
+  padding:10px;
+}
+
+body
+{
+  margin: 0;
+  background-image:url("background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;   
+  background-size: cover;
+}
+
+table
+	{
+	padding:30px;
+	border: 2px solid black;
+	border-collapse:collapse;
+	background: #F6EAE5;
+	}
+	td, th
+	{
+	border: 1px solid black;
+	padding:10px
+	}
+	th
+	{
+	background:#D79862;
+	}
+
+
+nav 
+	{
+            width: 15%;
+            position: fixed;
+            height: 100%;
+            background-color: #4ad9b3;
+            padding-top: 20px;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+	    
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li a {
+            display: block;
+            color: black;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        nav ul li a:hover, nav ul li a.active {
+            background-color: #069bbd;
+            color: white;
+        }
+
+#box {
+  
+  background-color:#cbffa6;
+  background-opacity: 0.5;
+  border: 2px solid;
+  padding: 20px;
+  box-shadow: 5px 10px lightblue;
+  border-radius: 50px 20px;
+  margin:20;
+}
+
+#box2 {
+
+  background-color: white;
+  border: 2px solid;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 20;
+  box-shadow: 5px 10px black;
+  width:20%;
+}
+
+p, ol, ul, th, td {
+font-family: Tahoma, Verdana, sans-serif;
+}
+
+article
+{
+  float: left;
+  padding:30px;
+  width:70%;
+  margin:0px;
+    
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+img
+{
+  padding:5px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+footer {
+  background-color: #02d4b1;
+  padding: 50px;
+  text-align: center;
+  color: white;
+  position: fixed;
+  width: 100%;
+}
